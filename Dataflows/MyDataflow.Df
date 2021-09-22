@@ -1,0 +1,616 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataflowDocument xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ProductVersion="8.5.4.119">
+  <IsFolder>false</IsFolder>
+  <Id>0</Id>
+  <IsNewRecord>false</IsNewRecord>
+  <Name>Dataflows/MyDataflow.Df</Name>
+  <Description />
+  <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+  <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+  <AutoLayoutOnNextLoad>false</AutoLayoutOnNextLoad>
+  <Views />
+  <ExplicitAnchors />
+  <Actions>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>ffb04368-4424-4bf7-ad60-8c42500226c4</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>ReportMining</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>220</Height>
+            <Width>180</Width>
+            <X>250.000031</X>
+            <Y>18</Y>
+            <IsExpanded>true</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>MyReportModel</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataUd>
+        <Name>MyReportModel</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="ReportLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>MyReportModel</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>ReportMiningDefinition</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields />
+          <Children />
+          <Referenced>
+            <BaseLayout xsi:type="ReportLayout" IsHierarchicalFile="false">
+              <IsFolder>false</IsFolder>
+              <Id>0</Id>
+              <IsNewRecord>false</IsNewRecord>
+              <Name>Data</Name>
+              <Description />
+              <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+              <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+              <IsSharedLayout>false</IsSharedLayout>
+              <LayoutBuildingOptions>
+                <RecordType>ReportMiningDefinition</RecordType>
+                <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+                <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+              </LayoutBuildingOptions>
+              <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+              <Fields>
+                <ReportLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="5234.09" MaxDecimalPlacesInLayoutBuilding="2" Length="11" DataType="Real" IsPrimaryKey="false" Header="FIELD_1" Index="0" AllowsNull="true" Name="OpeningBalance">
+                  <FieldRoles>Input Output</FieldRoles>
+                  <RegressionType>None</RegressionType>
+                  <IsInput>true</IsInput>
+                  <IsOutput>true</IsOutput>
+                  <IsVariable>false</IsVariable>
+                  <HasCollections>false</HasCollections>
+                  <CompositeType>None</CompositeType>
+                  <CompositeComponentType>None</CompositeComponentType>
+                  <LineCount>1</LineCount>
+                  <PositionType>Specified</PositionType>
+                  <FieldLabelPosition>None</FieldLabelPosition>
+                  <StartLine>2</StartLine>
+                  <StartColumn>74</StartColumn>
+                  <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                  <LengthType>Specified</LengthType>
+                  <ValueIfNull>None</ValueIfNull>
+                  <RemoveTextQualifier>false</RemoveTextQualifier>
+                  <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                  <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                  <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                  <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                  <RemovePunctuations>false</RemovePunctuations>
+                  <IsCalculated>false</IsCalculated>
+                </ReportLayoutField>
+                <ReportLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="2395.67" MaxDecimalPlacesInLayoutBuilding="2" Length="11" DataType="Real" IsPrimaryKey="false" Header="FIELD_2" Index="1" AllowsNull="true" Name="Withdrawals">
+                  <FieldRoles>Input Output</FieldRoles>
+                  <RegressionType>None</RegressionType>
+                  <IsInput>true</IsInput>
+                  <IsOutput>true</IsOutput>
+                  <IsVariable>false</IsVariable>
+                  <HasCollections>false</HasCollections>
+                  <CompositeType>None</CompositeType>
+                  <CompositeComponentType>None</CompositeComponentType>
+                  <LineCount>1</LineCount>
+                  <PositionType>Specified</PositionType>
+                  <FieldLabelPosition>None</FieldLabelPosition>
+                  <StartLine>3</StartLine>
+                  <StartColumn>74</StartColumn>
+                  <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                  <LengthType>Specified</LengthType>
+                  <ValueIfNull>None</ValueIfNull>
+                  <RemoveTextQualifier>false</RemoveTextQualifier>
+                  <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                  <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                  <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                  <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                  <RemovePunctuations>false</RemovePunctuations>
+                  <IsCalculated>false</IsCalculated>
+                </ReportLayoutField>
+                <ReportLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="2872.45" MaxDecimalPlacesInLayoutBuilding="2" Length="11" DataType="Real" IsPrimaryKey="false" Header="FIELD_3" Index="2" AllowsNull="true" Name="Deposits">
+                  <FieldRoles>Input Output</FieldRoles>
+                  <RegressionType>None</RegressionType>
+                  <IsInput>true</IsInput>
+                  <IsOutput>true</IsOutput>
+                  <IsVariable>false</IsVariable>
+                  <HasCollections>false</HasCollections>
+                  <CompositeType>None</CompositeType>
+                  <CompositeComponentType>None</CompositeComponentType>
+                  <LineCount>1</LineCount>
+                  <PositionType>Specified</PositionType>
+                  <FieldLabelPosition>None</FieldLabelPosition>
+                  <StartLine>4</StartLine>
+                  <StartColumn>74</StartColumn>
+                  <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                  <LengthType>Specified</LengthType>
+                  <ValueIfNull>None</ValueIfNull>
+                  <RemoveTextQualifier>false</RemoveTextQualifier>
+                  <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                  <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                  <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                  <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                  <RemovePunctuations>false</RemovePunctuations>
+                  <IsCalculated>false</IsCalculated>
+                </ReportLayoutField>
+              </Fields>
+              <Children />
+              <Referenced />
+              <ValidationRules />
+              <EndType>LineCount</EndType>
+              <RegionFormat>Unknown</RegionFormat>
+              <HasFieldsWithNoValues>false</HasFieldsWithNoValues>
+              <Patterns>
+                <LinePatternBase xsi:type="LinePattern">
+                  <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+                  <ApplyToLine>0</ApplyToLine>
+                  <IsRegEx>false</IsRegEx>
+                  <FloatFields>true</FloatFields>
+                  <IsFloatingPattern>false</IsFloatingPattern>
+                  <LineLength>0</LineLength>
+                  <PatternText>Account Summary                                                                                                                        </PatternText>
+                </LinePatternBase>
+              </Patterns>
+              <Pattern xsi:type="LinePattern">
+                <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+                <ApplyToLine>0</ApplyToLine>
+                <IsRegEx>false</IsRegEx>
+                <FloatFields>true</FloatFields>
+                <IsFloatingPattern>false</IsFloatingPattern>
+                <LineLength>0</LineLength>
+                <PatternText>Account Summary                                                                                                                        </PatternText>
+              </Pattern>
+              <ContentType>Report</ContentType>
+              <LineCount>6</LineCount>
+              <RegionType>Data</RegionType>
+              <IsContainer>false</IsContainer>
+              <IsOverlappedContainer>false</IsOverlappedContainer>
+              <FieldPositionsMayBeOff>false</FieldPositionsMayBeOff>
+              <MaxFieldStartAdjustment>0</MaxFieldStartAdjustment>
+              <IsMultiColumnRegion>false</IsMultiColumnRegion>
+              <RegionColumnStarts />
+            </BaseLayout>
+          </Referenced>
+          <ValidationRules />
+          <EndType>LineCount</EndType>
+          <RegionFormat>Unknown</RegionFormat>
+          <HasFieldsWithNoValues>false</HasFieldsWithNoValues>
+          <Patterns>
+            <LinePatternBase xsi:type="LinePattern">
+              <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+              <ApplyToLine>0</ApplyToLine>
+              <IsRegEx>false</IsRegEx>
+              <FloatFields>true</FloatFields>
+              <IsFloatingPattern>false</IsFloatingPattern>
+              <LineLength>0</LineLength>
+              <PatternText />
+            </LinePatternBase>
+          </Patterns>
+          <Pattern xsi:type="LinePattern">
+            <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+            <ApplyToLine>0</ApplyToLine>
+            <IsRegEx>false</IsRegEx>
+            <FloatFields>true</FloatFields>
+            <IsFloatingPattern>false</IsFloatingPattern>
+            <LineLength>0</LineLength>
+            <PatternText />
+          </Pattern>
+          <ContentType>Report</ContentType>
+          <LineCount>1</LineCount>
+          <RegionType>Top</RegionType>
+          <IsContainer>false</IsContainer>
+          <IsOverlappedContainer>false</IsOverlappedContainer>
+          <FieldPositionsMayBeOff>false</FieldPositionsMayBeOff>
+          <MaxFieldStartAdjustment>0</MaxFieldStartAdjustment>
+          <IsMultiColumnRegion>false</IsMultiColumnRegion>
+          <RegionColumnStarts />
+        </Layout>
+        <ContinueIterationOnError>false</ContinueIterationOnError>
+        <ActionRole>Normal</ActionRole>
+        <OutboundTransform>
+          <Transforms />
+        </OutboundTransform>
+        <FilePath>\\arrakis\share\Yousha\DeployementDemo\BankStatement.pdf</FilePath>
+        <CanStage>false</CanStage>
+        <MakeAllFieldsAsStringInBuildLayout>false</MakeAllFieldsAsStringInBuildLayout>
+        <ReportMiningDefinitionFilePath>
+          <Path>\\arrakis\share\Yousha\DeployementDemo\Deployment_Project\ReportModels\MyReportModel.Rmd</Path>
+          <UncPath>\\arrakis\share\Yousha\DeployementDemo\Deployment_Project\ReportModels\MyReportModel.Rmd</UncPath>
+          <RelativePath>..\ReportModels\MyReportModel.Rmd</RelativePath>
+        </ReportMiningDefinitionFilePath>
+        <FilePathResolved>
+          <Path>\\arrakis\share\Yousha\DeployementDemo\BankStatement.pdf</Path>
+          <UncPath>\\arrakis\share\Yousha\DeployementDemo\BankStatement.pdf</UncPath>
+        </FilePathResolved>
+      </DataflowItemDataUd>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>959ca34d-0b18-43c7-8ecc-096f742f88c5</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>DatabaseDest</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>220</Height>
+            <Width>180</Width>
+            <X>813</X>
+            <Y>41</Y>
+            <IsExpanded>true</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>DatabaseDest</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataDestinationDatabase>
+        <Name>DatabaseDest</Name>
+        <IsShared>false</IsShared>
+        <ParameterXml>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;DataObject Version="2" Name="DatabaseDest"&gt;&lt;DataObject Version="2" Name="DbInfo"&gt;&lt;DataElement Name="Database" Value="{Variables.DB_NAME}" /&gt;&lt;/DataObject&gt;&lt;/DataObject&gt;</ParameterXml>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="DbLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>DatabaseDest</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Database</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="5234.09" MaxDecimalPlacesInLayoutBuilding="2" Length="16" DataType="Real" IsPrimaryKey="false" Header="OpeningBalance" Index="0" AllowsNull="true" Name="OpeningBalance" DbDataTypeName="decimal" DecimalLength="6" SurvivorValueType="New" CoreDbType="Decimal" IsLengthAllowed="true" IsDecimalAllowed="true" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="OpeningBalance">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsStandardDimensionField>false</IsStandardDimensionField>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="2395.67" MaxDecimalPlacesInLayoutBuilding="2" Length="16" DataType="Real" IsPrimaryKey="false" Header="Withdrawals" Index="1" AllowsNull="true" Name="Withdrawals" DbDataTypeName="decimal" DecimalLength="6" SurvivorValueType="New" CoreDbType="Decimal" IsLengthAllowed="true" IsDecimalAllowed="true" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="Withdrawals">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsStandardDimensionField>false</IsStandardDimensionField>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="9" MaxNumericValueInLayoutBuilding="2872.45" MaxDecimalPlacesInLayoutBuilding="2" Length="16" DataType="Real" IsPrimaryKey="false" Header="Deposits" Index="2" AllowsNull="true" Name="Deposits" DbDataTypeName="decimal" DecimalLength="6" SurvivorValueType="New" CoreDbType="Decimal" IsLengthAllowed="true" IsDecimalAllowed="true" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="Deposits">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsStandardDimensionField>false</IsStandardDimensionField>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+            </DbLayoutField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <DbInfo Port="1433" Protocol="http" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="true" IsAccessExclusive="false" DataProvider="SqlServer" Server="ASTWKS3111" Database="DEV" Schema="" EncryptedUser="76A26DC57C9A1986286555D1009F8F23" EncryptedPassword="FD54880F06604C1D2CEDAB5B0E56E19A" TableName="Temp" TableSchema="" UseWindowsAuthentication="false" UseCurrentDatabase="false">
+            <IsReadOnly>false</IsReadOnly>
+            <providerFilter>
+              <DataProviderType>SqlServer</DataProviderType>
+            </providerFilter>
+            <UseSharedConnection>false</UseSharedConnection>
+            <UseS3ForStaging>false</UseS3ForStaging>
+            <StagingProvider>None</StagingProvider>
+            <SecurityToken>
+              <E />
+            </SecurityToken>
+            <UseSandbox>false</UseSandbox>
+            <RetrieveDeleted>false</RetrieveDeleted>
+            <ResetCache>false</ResetCache>
+            <WebProxyUserId />
+            <WebProxyPassword />
+            <JobId>-1</JobId>
+            <OverrideDefaultOdbcDriverAttributes>false</OverrideDefaultOdbcDriverAttributes>
+            <OdbcConnectionInfoType>DSN</OdbcConnectionInfoType>
+          </DbInfo>
+          <LoadKeys />
+          <ForeignKeys />
+          <ReferencingForeignKeys />
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" PartitionTable="false" FavorLocalLayout="false" PartitionCount="1" TrimStrings="true" ShowCollections="false">
+            <FilterRules />
+            <AuditFieldValueStore>File</AuditFieldValueStore>
+            <DoNotAddWhereKeywordToUserWhereClause>false</DoNotAddWhereKeywordToUserWhereClause>
+            <PartitionKeyValues />
+            <IncrementalReadStrategy>None</IncrementalReadStrategy>
+            <IncrementalTransferKeys />
+            <IncrementalTransferFilePath>
+              <Path />
+              <UncPath />
+            </IncrementalTransferFilePath>
+            <PerformFullLoad>false</PerformFullLoad>
+            <DeleteInDestinationIfDeletedFromSource>false</DeleteInDestinationIfDeletedFromSource>
+          </DefaultReaderOptions>
+          <DefaultWriterOptions UseParallelWrites="false" TransactionCommitAction="CommitAtEnd" UseTransactions="false" ParallelWriterCount="1" BulkCopyErrorAction="InsertIndividualRecords" BulkInsertBatchSize="10000" PreserveSystemGeneratedIds="false" RunGenerateStatistics="false" InsertOptions="BulkInsert" CheckFieldLengths="false" LogSQLLoaderErrors="false" FieldsWithNoMappingAction="DoNotModify" RecordDoesNotExistAction="Create" RecordExistsAction="Update" UpdateBatchSize="100" UseBatchedUpdate="true" RecordNotInSourceAction="Leave" SmartSyncBatchSize="1000" UseBulkInsert="true" CheckRecordExists="false">
+            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+            <CheckForNulls>true</CheckForNulls>
+            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+            <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+            <FilterRules />
+            <BulkLoadDataFormat>Delimited</BulkLoadDataFormat>
+            <IsolationLevel>Unspecified</IsolationLevel>
+            <MaxErrorCount>0</MaxErrorCount>
+            <KeyFields />
+            <TableInfo>
+              <TableType>Table</TableType>
+              <ColumnarTableType>None</ColumnarTableType>
+              <Schema />
+              <DataModelEntityType>Unknown</DataModelEntityType>
+              <DimensionType>None</DimensionType>
+              <IsQueryable>true</IsQueryable>
+              <IsUpdateable>true</IsUpdateable>
+              <IsIntersect>false</IsIntersect>
+            </TableInfo>
+            <TruncateTable>false</TruncateTable>
+            <DisableIndexesDuringLoad>false</DisableIndexesDuringLoad>
+            <BulkCopyOptions>0</BulkCopyOptions>
+            <UseConstraintBasedWrite>false</UseConstraintBasedWrite>
+            <SQLLoaderBatchSize>300000</SQLLoaderBatchSize>
+            <DirectLoad>false</DirectLoad>
+            <TruncateToFit>false</TruncateToFit>
+            <UpdateConditionRules />
+            <WriteStrategy>AlwaysInsert</WriteStrategy>
+          </DefaultWriterOptions>
+          <PrimaryKey />
+          <AllowsScd3AndScd6FieldRoles>false</AllowsScd3AndScd6FieldRoles>
+          <IsCaseSensitive>false</IsCaseSensitive>
+        </Layout>
+        <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+        <ClearIncomingRecordErrors>false</ClearIncomingRecordErrors>
+        <DoNotOverwriteDefaultsWithNullValues>false</DoNotOverwriteDefaultsWithNullValues>
+        <IsPushdown>false</IsPushdown>
+        <KeyFields />
+        <DbWriterOptions UseParallelWrites="false" TransactionCommitAction="CommitAtEnd" UseTransactions="false" ParallelWriterCount="1" BulkCopyErrorAction="InsertIndividualRecords" BulkInsertBatchSize="10000" PreserveSystemGeneratedIds="false" RunGenerateStatistics="false" InsertOptions="BulkInsert" CheckFieldLengths="false" LogSQLLoaderErrors="false">
+          <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+          <CheckForNulls>true</CheckForNulls>
+          <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+          <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+          <DoNotProcessRecordsWithErrors>false</DoNotProcessRecordsWithErrors>
+          <FilterRules />
+          <BulkLoadDataFormat>Delimited</BulkLoadDataFormat>
+          <IsolationLevel>Unspecified</IsolationLevel>
+          <MaxErrorCount>0</MaxErrorCount>
+          <KeyFields />
+          <TableInfo>
+            <TableType>Table</TableType>
+            <ColumnarTableType>None</ColumnarTableType>
+            <Schema />
+            <DataModelEntityType>Unknown</DataModelEntityType>
+            <DimensionType>None</DimensionType>
+            <IsQueryable>true</IsQueryable>
+            <IsUpdateable>true</IsUpdateable>
+            <IsIntersect>false</IsIntersect>
+            <ActionName>Temp</ActionName>
+            <Name>Temp</Name>
+          </TableInfo>
+          <TruncateTable>false</TruncateTable>
+          <DisableIndexesDuringLoad>false</DisableIndexesDuringLoad>
+          <BulkCopyOptions>0</BulkCopyOptions>
+          <UseConstraintBasedWrite>false</UseConstraintBasedWrite>
+          <SQLLoaderBatchSize>300000</SQLLoaderBatchSize>
+          <DirectLoad>false</DirectLoad>
+        </DbWriterOptions>
+        <PushdownExecutionInfo>
+          <AfterStatements />
+          <BeforeStatements />
+          <DmlStatements />
+          <IncrementalFiles />
+          <Sequences />
+        </PushdownExecutionInfo>
+        <ExportMode>false</ExportMode>
+        <DbInfo Port="1433" Protocol="http" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="true" IsAccessExclusive="false" DataProvider="SqlServer" Server="ASTWKS3111" Database="DEV" Schema="" EncryptedUser="76A26DC57C9A1986286555D1009F8F23" EncryptedPassword="FD54880F06604C1D2CEDAB5B0E56E19A" TableName="Temp" TableSchema="" UseWindowsAuthentication="false" UseCurrentDatabase="false">
+          <IsReadOnly>false</IsReadOnly>
+          <providerFilter>
+            <DataProviderType>SqlServer</DataProviderType>
+          </providerFilter>
+          <UseSharedConnection>false</UseSharedConnection>
+          <UseS3ForStaging>false</UseS3ForStaging>
+          <StagingProvider>None</StagingProvider>
+          <SecurityToken>
+            <E />
+          </SecurityToken>
+          <UseSandbox>false</UseSandbox>
+          <RetrieveDeleted>false</RetrieveDeleted>
+          <ResetCache>false</ResetCache>
+          <WebProxyUserId />
+          <WebProxyPassword />
+          <JobId>-1</JobId>
+          <OverrideDefaultOdbcDriverAttributes>false</OverrideDefaultOdbcDriverAttributes>
+          <OdbcConnectionInfoType>DSN</OdbcConnectionInfoType>
+        </DbInfo>
+        <SharingConnection>false</SharingConnection>
+        <TruncateTable>false</TruncateTable>
+        <MultiTableWrite>false</MultiTableWrite>
+        <PortType>OneForEachAction</PortType>
+        <WritePorts>Insert</WritePorts>
+        <SourceFieldPaths />
+        <UsesSourceFieldPaths>false</UsesSourceFieldPaths>
+      </DataflowItemDataDestinationDatabase>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>dad03cf1-21dd-4541-b5bc-b6e3c6746b08</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>Parameters</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>0</Height>
+            <Width>0</Width>
+            <X>588.5714</X>
+            <Y>-4.03645754</Y>
+            <IsExpanded>false</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>Variables</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataParameter>
+        <Name>Variables</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Parameters>
+          <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+            <Name>filepath</Name>
+            <DataType>String</DataType>
+            <Direction>Input</Direction>
+            <ParameterPath />
+          </ParameterInfoBase>
+        </Parameters>
+      </DataflowItemDataParameter>
+    </FlowDocumentItemAction>
+  </Actions>
+  <Links />
+  <Maps>
+    <FlowDocumentItemMap>
+      <Start>MyReportModel.Data.OpeningBalance</Start>
+      <End>DatabaseDest.Input_Insert.OpeningBalance</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>MyReportModel.Data.Withdrawals</Start>
+      <End>DatabaseDest.Input_Insert.Withdrawals</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <Start>MyReportModel.Data.Deposits</Start>
+      <End>DatabaseDest.Input_Insert.Deposits</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+  </Maps>
+  <Relationships />
+  <VisualInfo>
+    <Actions />
+    <DocumentBounds>
+      <Location>
+        <X>250.000031</X>
+        <Y>-4.036457</Y>
+      </Location>
+      <Size>
+        <Width>775</Width>
+        <Height>296.036469</Height>
+      </Size>
+      <X>250.000031</X>
+      <Y>-4.036457</Y>
+      <Width>775</Width>
+      <Height>296.036469</Height>
+    </DocumentBounds>
+    <DocumentPosition>
+      <X>-29.4285717</X>
+      <Y>-6.03645754</Y>
+    </DocumentPosition>
+    <DocumentScale>1</DocumentScale>
+    <MappingMode>Data</MappingMode>
+    <UseMessages>false</UseMessages>
+    <IsSelected>false</IsSelected>
+    <UseOrthogonalLinks>false</UseOrthogonalLinks>
+  </VisualInfo>
+  <IsReadyForPreview>false</IsReadyForPreview>
+</DataflowDocument>

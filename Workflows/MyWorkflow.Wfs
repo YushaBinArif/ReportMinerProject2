@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WorkflowDocument2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ProductVersion="8.5.4.119">
+  <IsFolder>false</IsFolder>
+  <Id>0</Id>
+  <IsNewRecord>false</IsNewRecord>
+  <Name>\\arrakis\share\Yousha\DeployementDemo\Deployment_Project\Workflows\MyWorkflow.Wfs</Name>
+  <Description />
+  <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+  <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+  <AutoLayoutOnNextLoad>false</AutoLayoutOnNextLoad>
+  <Views />
+  <ExplicitAnchors />
+  <Actions>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>bea711f8-8b10-4327-b662-9a0c9301e27d</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>RunDataflow2</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>220</Height>
+            <Width>180</Width>
+            <X>317</X>
+            <Y>77</Y>
+            <IsExpanded>false</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>MyDataflow</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <WorkflowItemDataStartDataflowJob2>
+        <Name>MyDataflow</Name>
+        <IsShared>false</IsShared>
+        <ActionRole>Normal</ActionRole>
+        <JobFilePath>
+          <Path>\\arrakis\share\Yousha\DeployementDemo\Deployment_Project\Dataflows\MyDataflow.Df</Path>
+          <UncPath>\\arrakis\share\Yousha\DeployementDemo\Deployment_Project\Dataflows\MyDataflow.Df</UncPath>
+          <RelativePath>..\Dataflows\MyDataflow.Df</RelativePath>
+        </JobFilePath>
+        <ServerPort>0</ServerPort>
+        <ParameterInfo>
+          <AllowsSharedActions>true</AllowsSharedActions>
+          <AllowsReplacementCharacter>false</AllowsReplacementCharacter>
+          <AllowsFileIterators>false</AllowsFileIterators>
+          <ActionParameters>
+            <ActionParameterInfo>
+              <Name>MyReportModel</Name>
+              <IsExternalParam>false</IsExternalParam>
+              <Parameters>
+                <ParameterInfoBase xsi:type="ParameterInfoFilePath">
+                  <Name>SourceFile</Name>
+                  <CurrentValueStr>\\arrakis\share\Yousha\DeployementDemo\BankStatement.pdf</CurrentValueStr>
+                  <DataType>String</DataType>
+                  <Direction>Input</Direction>
+                  <IsWebPath>false</IsWebPath>
+                  <FileUsage>Read</FileUsage>
+                </ParameterInfoBase>
+                <ParameterInfoBase xsi:type="ParameterInfoFilePath">
+                  <Name>ReportModelFile</Name>
+                  <CurrentValueStr>\\arrakis\share\Yousha\DeployementDemo\Deployment_Project\ReportModels\MyReportModel.Rmd</CurrentValueStr>
+                  <DataType>String</DataType>
+                  <Direction>Input</Direction>
+                  <IsWebPath>false</IsWebPath>
+                  <FileUsage>Read</FileUsage>
+                </ParameterInfoBase>
+              </Parameters>
+            </ActionParameterInfo>
+            <ActionParameterInfo>
+              <Name>DatabaseDest</Name>
+              <IsExternalParam>false</IsExternalParam>
+              <Parameters>
+                <ParameterInfoBase xsi:type="ParameterInfoDbInfo">
+                  <Name>DbConnectInfo</Name>
+                  <CurrentValueStr>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;DatabaseInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Port="1433" Protocol="http" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="true" IsAccessExclusive="false" DataProvider="SqlServer" Server="ASTWKS3111" Database="DEV" Schema="" EncryptedUser="76A26DC57C9A1986286555D1009F8F23" EncryptedPassword="FD54880F06604C1D2CEDAB5B0E56E19A" TableName="Temp" TableSchema="" UseWindowsAuthentication="false" UseCurrentDatabase="false"&gt;&lt;IsReadOnly&gt;false&lt;/IsReadOnly&gt;&lt;providerFilter&gt;&lt;DataProviderType&gt;SqlServer&lt;/DataProviderType&gt;&lt;/providerFilter&gt;&lt;UseSharedConnection&gt;false&lt;/UseSharedConnection&gt;&lt;UseS3ForStaging&gt;false&lt;/UseS3ForStaging&gt;&lt;StagingProvider&gt;None&lt;/StagingProvider&gt;&lt;SecurityToken&gt;&lt;E /&gt;&lt;/SecurityToken&gt;&lt;UseSandbox&gt;false&lt;/UseSandbox&gt;&lt;RetrieveDeleted&gt;false&lt;/RetrieveDeleted&gt;&lt;ResetCache&gt;false&lt;/ResetCache&gt;&lt;WebProxyUserId /&gt;&lt;WebProxyPassword /&gt;&lt;JobId&gt;-1&lt;/JobId&gt;&lt;OverrideDefaultOdbcDriverAttributes&gt;false&lt;/OverrideDefaultOdbcDriverAttributes&gt;&lt;OdbcConnectionInfoType&gt;DSN&lt;/OdbcConnectionInfoType&gt;&lt;/DatabaseInfo&gt;</CurrentValueStr>
+                  <DataType>DbInfo</DataType>
+                  <Direction>Input</Direction>
+                </ParameterInfoBase>
+                <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+                  <Name>TruncateTable</Name>
+                  <CurrentValueStr>False</CurrentValueStr>
+                  <DataType>Boolean</DataType>
+                  <Direction>Input</Direction>
+                </ParameterInfoBase>
+              </Parameters>
+            </ActionParameterInfo>
+          </ActionParameters>
+        </ParameterInfo>
+        <ResumeActionType>Rerun</ResumeActionType>
+        <SavedOutboundMeta>
+          <Children />
+          <Elements />
+          <Referenced>
+            <MetaBaseOfMetaElement xsi:type="MetaObject">
+              <Children />
+              <Elements>
+                <MetaElement>
+                  <Name>$JobFilePath</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                </MetaElement>
+              </Elements>
+              <Referenced />
+              <Name>Input</Name>
+              <InboundPortVisible>true</InboundPortVisible>
+              <OutboundPortVisible>true</OutboundPortVisible>
+              <Indicator>None</Indicator>
+              <IsPrimitiveValueCollection>false</IsPrimitiveValueCollection>
+              <IsEmbeddedMember>false</IsEmbeddedMember>
+            </MetaBaseOfMetaElement>
+            <MetaBaseOfMetaElement xsi:type="MetaObject">
+              <Children />
+              <Elements>
+                <MetaElement>
+                  <Name>Status</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                </MetaElement>
+                <MetaElement>
+                  <Name>ErrorMessage</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                </MetaElement>
+                <MetaElement>
+                  <Name>ErrorStack</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                </MetaElement>
+                <MetaElement>
+                  <Name>CompletedSuccessfully</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>Boolean</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                </MetaElement>
+                <MetaElement>
+                  <Name>JobId</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>Integer</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                </MetaElement>
+                <MetaElement>
+                  <Name>ParentJobId</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>Integer</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                </MetaElement>
+                <MetaElement>
+                  <Name>SessionId</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>Integer</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                </MetaElement>
+              </Elements>
+              <Referenced />
+              <Name>Output</Name>
+              <InboundPortVisible>true</InboundPortVisible>
+              <OutboundPortVisible>true</OutboundPortVisible>
+              <Indicator>None</Indicator>
+              <IsPrimitiveValueCollection>false</IsPrimitiveValueCollection>
+              <IsEmbeddedMember>false</IsEmbeddedMember>
+            </MetaBaseOfMetaElement>
+          </Referenced>
+          <Name>MyDataflow</Name>
+          <InboundPortVisible>true</InboundPortVisible>
+          <OutboundPortVisible>true</OutboundPortVisible>
+          <Indicator>None</Indicator>
+          <IsPrimitiveValueCollection>false</IsPrimitiveValueCollection>
+          <IsEmbeddedMember>false</IsEmbeddedMember>
+        </SavedOutboundMeta>
+        <RegressionType>None</RegressionType>
+        <IsPushdown>false</IsPushdown>
+      </WorkflowItemDataStartDataflowJob2>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>6b7247be-ea53-4bae-ae4c-cdffd4a48c55</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>SendMail</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>220</Height>
+            <Width>180</Width>
+            <X>679</X>
+            <Y>169</Y>
+            <IsExpanded>false</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>SendMail</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <WorkflowItemDataSendEmail>
+        <Name>SendMail</Name>
+        <IsShared>false</IsShared>
+        <ActionRole>Normal</ActionRole>
+        <From>yousha.arif@astera.com</From>
+        <To>yousha.arif@astera.com</To>
+        <Subject>Deployment Demo</Subject>
+        <Body>Success !!</Body>
+        <IsBodyHtml>false</IsBodyHtml>
+        <EmailConnection>
+          <Authentication>
+            <AuthenticationMethod>None</AuthenticationMethod>
+            <ConsumerKey />
+            <ConsuerSecret />
+            <UserName />
+            <Password />
+          </Authentication>
+          <Proxy>
+            <UseProxy>false</UseProxy>
+            <ProxyPort>8080</ProxyPort>
+            <ProxyType>Socks4</ProxyType>
+            <LogLevel>Off</LogLevel>
+            <ProxyLoginName />
+            <ProxyPassword />
+          </Proxy>
+          <TransportSecurity>
+            <SecurityType>None</SecurityType>
+            <CertificateFilePath>
+              <Path />
+              <UncPath />
+            </CertificateFilePath>
+            <CertificatePassword />
+            <PrivateKey />
+            <IntegrityProtectionType>None</IntegrityProtectionType>
+          </TransportSecurity>
+          <Url>outlook.office365.com</Url>
+          <Port>25</Port>
+          <Timeout>30</Timeout>
+          <RetryCount>4</RetryCount>
+          <RequireSSL>true</RequireSSL>
+          <UserName>
+            <E>CBCB2E1F9815107B63D58290A088EF53D1E00CAC4371F263E4A04173C6A81011</E>
+          </UserName>
+          <Password>
+            <E>28ABD04FFAF0E4261F86A3EE579205BA715FD4897CFDBAD838859259BEEAE01E</E>
+          </Password>
+          <LogLevel>Off</LogLevel>
+          <EmailProtocol>Imap</EmailProtocol>
+        </EmailConnection>
+      </WorkflowItemDataSendEmail>
+    </FlowDocumentItemAction>
+  </Actions>
+  <Links>
+    <FlowDocumentItemLink>
+      <Start>MyDataflow</Start>
+      <End>SendMail</End>
+      <LinkType>Normal</LinkType>
+    </FlowDocumentItemLink>
+  </Links>
+  <Maps />
+  <Relationships />
+  <VisualInfo>
+    <Actions />
+    <DocumentBounds>
+      <Location>
+        <X>311</X>
+        <Y>77</Y>
+      </Location>
+      <Size>
+        <Width>566</Width>
+        <Height>312</Height>
+      </Size>
+      <X>311</X>
+      <Y>77</Y>
+      <Width>566</Width>
+      <Height>312</Height>
+    </DocumentBounds>
+    <DocumentPosition>
+      <X>0</X>
+      <Y>0</Y>
+    </DocumentPosition>
+    <DocumentScale>1</DocumentScale>
+    <MappingMode>Data</MappingMode>
+    <UseMessages>false</UseMessages>
+    <IsSelected>false</IsSelected>
+    <UseOrthogonalLinks>false</UseOrthogonalLinks>
+  </VisualInfo>
+</WorkflowDocument2>
